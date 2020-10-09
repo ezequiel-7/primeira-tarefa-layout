@@ -1,0 +1,131 @@
+*{
+    margin-top: 15px auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu{
+    background-color: #ccc;
+}
+#menu ul{
+    list-style: none;
+    padding: 20px;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #000000;
+    border: 0px solid #fff;
+    border-radius: 5px 5px;
+    margin-right: 5px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    display: inline-block;
+}
+#menu ul li a.home{
+    background-color: #000;
+    color: #fff;
+}
+#menu ul li a:hover{
+    background-color: #000000;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+}
+#menu ul li:last-child a{
+    float: right;
+    background-color: #ccc;
+}
+#menu ul li a.pro{
+    background-color: #000;
+    color: #fff;
+}
+#menu ul li a.dns{
+    background-color: #000;
+    color: #fff;
+}
+#menu ul li a.dom{
+    background-color: #000;
+    color: #fff;
+}
+.linha{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+    position: relative;
+}
+.linha a{
+    text-decoration: none;
+    background-color: #ccc;
+    color: #000000;
+}
+.linha a:hover{
+    color: #fff;
+}
+.col1{
+    background: #ccc;
+    width: 960px;
+    height: 200px;
+    color: #000;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.col2{
+    background: #ccc;
+    width: 960px;
+    height: 150px;
+    color: #000;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.col3{
+    background: #ccc;
+    width: 960px;
+    height: 200px;
+    color: #000;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.col4{
+    background: #ccc;
+    width: 960px;
+    height: 330px;
+    color: #000;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.col5{
+    background: #ccc;
+    width: 960px;
+    height: 255px;
+    color: #000;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.col6{
+    background: #ccc;
+    width: 960px;
+    height: 400px;
+    color: #000;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.col4 h2, .col5 h2, .col6 h2{
+    text-align: center
+}
+p{
+    text-indent: 10px;
+    position: absolute;
+    left: 15px;
+    right: 15px;
+}
+a{
+    color: #000;
+}
